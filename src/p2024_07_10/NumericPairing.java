@@ -1,9 +1,5 @@
 package p2024_07_10;
 
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
 class Solution{
     String x;
     String y;
@@ -14,7 +10,6 @@ class Solution{
     }
 
     public String action() {
-        StringBuilder sb = new StringBuilder();
         int[] RedundancyCountX = new int[10];
         int[] RedundancyCountY = new int[10];
 
@@ -27,6 +22,7 @@ class Solution{
             RedundancyCountY[c-'0']++;
         }
 
+        StringBuilder sb = new StringBuilder();
         for(int i=9;i>=0;i--){
             for(int j=0;j<Math.min(RedundancyCountX[i], RedundancyCountY[i]);j++){
                 sb.append(i);
@@ -38,13 +34,11 @@ class Solution{
         }else if(sb.toString().charAt(0)=='0'){
             return "0";
         }
-
         return sb.toString();
     }
-
 }
 
-public class asdasd {
+public class NumericPairing {
     public static void main(String[] args) {
         String x = "100";
         String y = "203045";
