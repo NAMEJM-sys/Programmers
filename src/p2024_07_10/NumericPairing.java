@@ -1,10 +1,10 @@
 package p2024_07_10;
 
-class Solution{
+class Solution1{
     String x;
     String y;
 
-    Solution(String x, String y){
+    Solution1(String x, String y){
         this.x = x;
         this.y = y;
     }
@@ -42,8 +42,8 @@ public class NumericPairing {
     public static void main(String[] args) {
         String x = "100";
         String y = "203045";
-        Solution so = new Solution(x, y);
-        System.out.println(so.action());
+        Solution1 so1 = new Solution1(x, y);
+        System.out.println(so1.action());
 
     }
 }
