@@ -1,10 +1,7 @@
-package p2024_07_10;
+package p2024_07_12;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Babbling1 {
     static void generateCombinations(String[] words, String current, List<String> result) {

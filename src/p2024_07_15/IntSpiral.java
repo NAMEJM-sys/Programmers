@@ -1,4 +1,4 @@
-package p2024_07_10;
+package p2024_07_15;
 
 import java.util.Arrays;
 import java.util.Scanner;
